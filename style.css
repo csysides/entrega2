@@ -1,0 +1,27 @@
++{
+    marggin: 0;
+padding: 0
+box-sizing: border-box
+ }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 1rem ;
+ }
+ul a {
+    color: black; 
+    text-decoration: solid;
+}
+ ul{
+    list-style: none;
+    display:flex;
+    gap: 10px;
+
+ }
+
+ 
