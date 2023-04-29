@@ -1,18 +1,13 @@
-+{
-    marggin: 0;
-padding: 0
-box-sizing: border-box
- }
-body {
-    font-family: 'Dancing Script'
-}
- nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: cornflowerblue;
-    padding: 1rem ;
- }
+*{
+    margin: 0;
+padding: 0; 
+box-sizing: border-box;
+ font-family: 'Dancing Script'; 
+  display: flex;
+  list-style-type:none;
+  justify-content: space-between;
+align-items: center;
+} 
 ul a {
     color: black; 
     text-decoration: solid;
@@ -25,5 +20,11 @@ ul a {
  }
 .img {
     border-radius: 0%;
+    width: 60px;
+    height: 60px;
+}
+ .turnos {
+    width: 60px;
+    height: 60px;
 }
  
